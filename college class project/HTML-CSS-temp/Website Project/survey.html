@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title><b>Coffee Survey</b></title>
+  <link rel="stylesheet" href="project.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='styles.css' rel='stylesheet' type='text/css' />
+  <style>
+    div {
+      background-color: lightgrey;
+      width: 300px;
+      border: 15px solid green;
+      padding: 50px;
+      margin: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav>
+    <header>
+      <i>
+      <h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="roasting.html">Roasting</a></li>
+          <li><a href="grinding.html">Grinding</a></li>
+          <li><a href="brewing.html">Brewing</a></li>
+          <li><a href="drinks.html">Drinks</a></li>
+          <li><a href="survey.html">Coffee Survey</a></li>
+        </ul>
+      </h1>
+    </header>
+  </nav>
+  <h1>Coffeee survey</h1>
+  <aside>
+    <figure>
+
+      <img src="images/espresso.jpg" alt="A cup of espresso">
+
+    </figure>
+  </aside>
+  <form action="coffee-survey.php" method size="post">
+    <fieldset>
+      <legend> personal information</legend>
+      Your Name
+      <br>
+      <br>
+      <input type="text"name="name"required size="40px"
+      />
+      <br/>
+      Email address
+      <br/>
+      <input type="email"name="email" required placeholder="Eter a valid email address" size="40px"/>
+
+
+
+    </fieldset>
+    <fieldset>
+      <legend>your coffee preference</legend>
+      Tell us your coffee preparation method.
+      <br>
+      <br>
+      <textarea name="preparation" cols="40" rows="6"></textarea>
+      <br>
+      Do you grind your own beans?
+      <br>
+      <br>
+      <input type="radio">Name="grind" value="yes"/>yes
+      <input type="radio">Name="grind" value="no"/>
+      <br>
+      <br>
+      How do yo drink you coffee?
+      <br>
+      <br>
+      <input type="checkbox">name="drink"value"suger"/>with suger
+      <input type="checkbox">name="drink"value"creme"/>with creme
+      <br>
+      <br>
+      <select name="favrite" >
+        <option value="">please select a drink</option>
+        <option value="">drip coffee</option>
+        <option value="">French press</option>
+        <option value="">espresso</option>
+        <option value="">latte</option>
+        <option value="">flavored</option>
+        </select>
+        <br>
+        <input type="submit">
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+  </form>
+
+
+  Coffee Survey
+
+  Your Name
+
+  Email Address
+
+  Tell us your coffee preparation methods.
+
+  Do you grind your own beans?
+  yes
+  no
+
+  How do you drink your coffee?
+  with sugar
+  with cream
+
+  What is your favorite coffee drink?
+
+  please select a drink
+  drip coffee
+  french press
+  espresso
+  latte
+  flavored
+</i>
+</body>
+
+</html>
